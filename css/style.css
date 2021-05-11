@@ -14,4 +14,17 @@
     background-color:#F07F80;
     border: 1px solid white;
     min-height: 145px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .box {
+        background-color: #D3E68E;
+    }
+
+    .nested {
+        background-color: #94C28F;
+    }
+    
 }
