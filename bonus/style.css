@@ -1,0 +1,47 @@
+.main-cont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    width: 405px;
+    height: 405px;
+    animation: ruota .27s linear infinite;
+}
+
+.box{
+    height: 15px;
+}
+
+.color-1 {
+    background-color: black;
+}
+
+.color-2 {
+    background-color: #F75C01;
+}
+
+.container:hover {
+    animation: none;
+}
+
+.container:hover .color-1 {
+    background-color: #F75C01;
+}
+
+.container:hover .color-2 {
+    background-color: black;
+}
+
+@keyframes ruota {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
